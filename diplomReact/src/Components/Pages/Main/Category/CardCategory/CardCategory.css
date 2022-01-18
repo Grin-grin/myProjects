@@ -1,0 +1,42 @@
+.category__card {
+    flex: 1 0 160px;
+}
+
+.category__bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    margin-bottom: 33px;
+    background-color: var(--color-yellow-light);
+    transition: .3s;
+}
+
+.category__card-link {
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+.category__card-link:hover .category__bg {
+    background-color: var(--color-yellow-dark);
+    transition: .3s;
+}
+
+.category__card-link:active {
+    opacity: 0.3;
+}
+
+.category__card-link:active .category__bg {
+    opacity: 0.7;
+}
+
+.category__card-link:focus-visible .category__bg {
+    border: 5px solid var(--color-purple);
+    transition: .3s;
+}
+
+.category__card-link:focus-visible {
+    color: var(--color-purple);
+    transition: .3s;
+}

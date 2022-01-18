@@ -1,0 +1,147 @@
+.about-as {
+    padding-top: 90px;
+    padding-bottom: 87px;
+}
+
+.about-as__promo {
+    position: relative;
+    margin-bottom: 97px;
+    padding: 37px 125px 43px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    letter-spacing: .2em;
+    background-color: var(--color-light);
+}
+
+.about-as__promo::before {
+    position: absolute;
+    content: '';
+    width: 125px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('./about_img/delivery_about.svg') no-repeat center var(--color-yellow-light);
+}
+
+.about-as__promo::after {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    content: 'i';
+    width: 40px;
+    height: 40px;
+    top: 28%;
+    right: 2.845%;
+    font-size: 18px;
+    letter-spacing: 0;
+    border-radius: 100%;
+    background-color: rgba(220, 220, 220, .5);
+}
+
+.about-as__section {
+    display: flex;
+    gap: 40px;
+}
+
+.about-as__divider {
+    display: block;
+    width: 80px;
+    height: 7px;
+    margin-bottom: 42px;
+    background-color: var(--color-black);
+}
+
+.about-as__about {
+    max-width: 560px;
+    width: 100%;
+    padding-right: 63px;
+}
+
+.about-as__description {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.about__delivery {
+    margin-bottom: 70px;
+}
+
+.about__delivery__description {
+    margin-bottom: 75px;
+}
+
+.about__delivery__item {
+    position: relative;
+    margin-bottom: 22px;
+    padding-left: 32px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.about__delivery__item::before {
+    position: absolute;
+    content: '';
+    top: 30%;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-yellow-dark);
+    border-radius: 100%;
+}
+
+.about-as__link {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2em;
+    transition: all .3s;
+}
+
+.about-as__link::after {
+    z-index: -1;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 8px;
+    background-color: var(--color-yellow-light);
+    transition: all .3s;
+}
+
+.about-as__link:focus-visible::after {
+    background-color: var(--color-purple);
+}
+
+.about-as__link:hover::after {
+    height: 50px;
+}
+
+.about-as__link:active {
+    color: rgba(0, 0, 0, .3);
+}
+
+.contacts__contact {
+    margin-bottom: 30px;
+}
+
+.contacts__title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.contacts__descriptions {
+    margin: 0;
+    line-height: 30px;
+}
+
+.contact__tel {
+    text-decoration: underline;
+}
+
+.contacts__time {
+    margin-bottom: 67px;
+}

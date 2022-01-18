@@ -1,0 +1,32 @@
+ [
+    {
+        "id": 1,
+        "categoryName": "Виртуальная реальность",
+        "img": "/Category_img/virtual_reality_category.png"
+    },
+    {
+        "id": 2,
+        "categoryName": "Моноподы для селфи",
+        "img": "/Category_img/selfie_stick_category.png"
+    },
+    {
+        "id": 3,
+        "categoryName": "Экшн-камеры",
+        "img": "/Category_img/action_cameras_category.png"
+    },
+    {
+        "id": 4,
+        "categoryName": "Фитнес-браслеты",
+        "img": "/Category_img/fitness_bracelet_category.png"
+    },
+    {
+        "id": 5,
+        "categoryName": "Умные часы",
+        "img": "/Category_img/clock_category.png"
+    },
+    {
+        "id": 6,
+        "categoryName": "Квадракоптеры",
+        "img": "/Category_img/quadcopter_category.png"
+    }
+]

@@ -1,0 +1,23 @@
+.card {
+    padding-top: 37px;
+    padding-bottom: 70px;
+}
+
+.card__container {
+    padding: 0 60px;
+}
+
+.card__title {
+    margin-bottom: 14px;
+}
+
+.card__top {
+    margin-bottom: 49px;
+}
+
+.card__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}

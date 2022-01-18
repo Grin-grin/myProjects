@@ -1,0 +1,28 @@
+ [
+    {
+      "id": 1,
+      "productsName": "Любительская селфи-палка",
+      "price": 500,
+      "img": "/Category_img/product/selfie-1.png"
+    },
+   {
+     "id": 2,
+     "productsName": "Любительская селфи-палка",
+     "price": 500,
+     "img": "/Category_img/product/product-2.png"
+   },
+   {
+     "id": 3,
+     "productsName": "Непотопляемая селфи-палка",
+     "price": 2500,
+     "img": "/Category_img/product/product-3.png"
+   },
+   {
+     "id": 4,
+     "productsName": "Селфи-палка «Следуй за мной»",
+     "price": 4900,
+     "img": "/Category_img/product/product-4.png"
+   }
+ ]
+
+

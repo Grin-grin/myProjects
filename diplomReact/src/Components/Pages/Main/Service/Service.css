@@ -1,0 +1,147 @@
+.service {
+    position: relative;
+    padding-bottom: 58px;
+}
+
+.service::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 74.4%;
+    background-color: var(--color-light);
+}
+
+.service__container {
+    display: flex;
+    gap: 116px;
+}
+
+.service__tabs {
+    position: relative;
+    padding-top: 80px;
+}
+
+.service__tabs::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 7px;
+    height: 100%;
+    background-color: var(--color-black);
+}
+
+.service__tabs__list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.service__tab {
+    position: relative;
+    display: flex;
+    padding: 9px 0 11px 0;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 18px;
+    letter-spacing: .2em;
+    background: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.service__tab_active {
+    width: 280px;
+    justify-content: left;
+    padding-left: 17px;
+    color: var(--color-yellow-light);
+    background-color: var(--color-black);
+    cursor: auto;
+}
+
+.service__tab::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 8px;
+    left: 0;
+    background-color: var(--color-yellow-dark);
+    transition: all.3s;
+}
+
+.service__tab:focus-visible::after {
+    background-color: var(--color-purple);
+}
+
+.service__tab:hover::after {
+    height: 100%;
+    transition: height .3s;
+}
+
+.service__text {
+    position: relative;
+    display: none;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.service__text_active {
+    display: block;
+}
+
+.service__title {
+    margin-bottom: 34px;
+}
+
+.service__description {
+    line-height: 30px;
+}
+
+.service__description_delivery {
+    width: 59%;
+}
+
+.service__description_warranty {
+    width: 63%;
+}
+
+.service__description_credit {
+    width: 60%;
+}
+
+.service__text_delivery::after {
+    position: absolute;
+    content: '';
+    width: 136px;
+    height: 164px;
+    top: 85px;
+    right: 66px;
+    background: url('./Service__img/delivery.svg') no-repeat;
+}
+
+.service__text_warranty::after {
+    position: absolute;
+    content: '';
+    width: 171px;
+    height: 195px;
+    top: 61px;
+    right: 47px;
+    background: url('./Service__img/warranty.svg') no-repeat;
+}
+
+.service__text_credit::after {
+    position: absolute;
+    content: '';
+    width: 156px;
+    height: 188px;
+    top: 61px;
+    right: 56px;
+    background: url('./Service__img/credit.svg') no-repeat;
+}

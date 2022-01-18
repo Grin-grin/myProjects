@@ -1,0 +1,14 @@
+.catalog {
+    margin-top: 37px;
+}
+
+.catalog__title {
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.catalog__container {
+    margin-bottom: 49px;
+}
