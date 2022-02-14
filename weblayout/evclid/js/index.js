@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     var mySwiper1 = new Swiper('.swiper-container', {
         // Optional parameters
-        
+
         // If we need pagination
         pagination: {
              el: '.swiper-pagination',
@@ -29,17 +29,15 @@ window.addEventListener('DOMContentLoaded', function() {
         scrollbar: {
             hide: false,
         },
-        
-        speed: 1500,
-        
-        spaceBetween: 0,
 
-        slidesPerView: 1,
-                
+        speed: 1500,
+
+        slidesPerView: 2,
+
         allowTouchMove: false,
-                
+
         slidesPerColumnFill: 'row',
-               
+
     });
 
     // var mySwiper = new Swiper('.swiper-container', {
@@ -54,7 +52,7 @@ window.addEventListener('DOMContentLoaded', function() {
     //        nextEl: '.swiper-button-next',
     //        prevEl: '.swiper-button-prev',
     //    },
-        
+
     //     // And if we need scrollbar
     //     scrollbar: {
     //         hide: false,
